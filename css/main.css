@@ -151,7 +151,7 @@ a {
 .main {
   background-image: -webkit-gradient(linear, left top, right bottom, from(var(--primary-clr-drk)), to(var(--secondary-clr-drk)));
   background-image: linear-gradient(to bottom right, var(--primary-clr-drk), var(--secondary-clr-drk));
-  height: 100vh;
+  height: auto;
 }
 
 .main-container {
@@ -169,6 +169,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 5%;
+  padding-bottom: 3rem;
 }
 
 .top {

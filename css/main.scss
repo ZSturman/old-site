@@ -156,7 +156,7 @@ a{
 
 .main{
     background-image: linear-gradient(to bottom right, var(--primary-clr-drk), var(--secondary-clr-drk));
-    height: 100vh;
+    height: auto;
 }
 
 .main-container{
@@ -165,6 +165,8 @@ a{
     align-items: center;
     justify-content: center;
     padding-top: 5%;
+    padding-bottom: 3rem;
+    
 }
 
 .top{
