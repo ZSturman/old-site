@@ -5,12 +5,12 @@
 :root {
   --primary-clr: #155AE6;
   --primary-clr-light: #628FEA;
-  --primary-clr-drk: #092866;
+  --primary-clr-drk: #1e1f5b;
   --primary-txt-clr: white;
   --primary-txt-clr-inverted: black;
   --secondary-clr: #9E13D1;
   --secondary-clr-light: #CD7CEB;
-  --secondary-clr-drk: #3E0752;
+  --secondary-clr-drk: #3c2249;
   --third-clr: #D12D00;
   --third-clr-light: #EB7959;
   --third-clr-drk: #571300;
@@ -149,8 +149,8 @@ a {
         main page
 ===============================*/
 .main {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(var(--primary-clr-drk)), to(var(--secondary-clr-drk)));
-  background-image: linear-gradient(to bottom right, var(--primary-clr-drk), var(--secondary-clr-drk));
+  background-image: url(/css/images/Headshots/ZacharyLookingOutAsCptMorgan.jpg);
+  /* background-image: linear-gradient(to bottom right, var(--primary-clr-drk), var(--secondary-clr-drk)); */
   height: auto;
 }
 
@@ -186,6 +186,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-height: 100px;
 }
 
 .main-pic {
